@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  max-width: 1048px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  min-height: 83px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  background-color: #fff;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_logo {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0c0e36;
+}
+.header__menu {
+  padding-right: 109px;
+}
+.header__menu ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+.header nav {
+  padding-right: 109px;
+}
+.header__menu li:not(:last-child) {
+  margin-right: 60px;
+}
+.header__menu li a {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #0c0e36;
+  text-decoration: none;
+}
+.weather {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 83px;
+  display: flex;
+}
+.weather_icon {
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f70058;
+}
+.icon-cloud-sun {
+  width: 51px;
+  height: 34px;
+  background-image: url("../img/weather.svg");
+}
+.weather_info {
+  display: flex;
+  flex-direction: column;
+  padding: 17px 13px 17px 8px;
+  list-style: none;
+  background-color: #0c0e36;
+}
+.weather_info li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2px;
+}
+.weather_info li:not(:last-child) {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #8a8a9d;
+  margin-bottom: 10px;
+}
+.weather_info span {
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 13px;
+}
+.weather_info b {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+.hero {
+  background-image: url("../img/hero-fon.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: skyblue;
+  background-size: cover;
+}
+.hero .container {
+  min-height: calc(100vh - 83px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container h3 {
+  max-width: 538px;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 49px;
+  padding-bottom: 10px;
+}
+.container p {
+  max-width: 615px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 44px;
+}
+.button button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.button .seasons-pass {
+  width: 240px;
+  height: 49px;
+  border: 1px solid #f70058;
+  color: #fff;
+  background-color: #f70058;
+  margin-right: 23px;
+}
+.button .tickets {
+  width: 167px;
+  height: 49px;
+  color: #f70058;
+  border: 5px solid #f70058;
+  box-sizing: border-box;
+  background-color: rgba(247, 0, 88, 0%);
+}
