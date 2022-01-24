@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1125px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+button {
+  cursor: pointer;
+}
+.header {
+  position: relative;
+  min-height: 78px;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img:not(:last-child) {
+  margin-right: 320px;
+}
+.header__menu ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin-right: 30px;
+}
+.header__menu li:not(:last-child) {
+  padding-right: 30px;
+}
+.header__menu li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2f281e;
+  text-decoration: none;
+}
+.header button {
+  width: 102px;
+  height: 46px;
+  font-size: 16px;
+  font-weight: 600;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.header__sing_in {
+  border: 2px solid #bcd0e5;
+  background-color: #fff;
+}
+.header__sing_up {
+  border: 2px solid #ff9900;
+  color: #fff;
+  background-color: #ff9900;
+}
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  margin-bottom: 111px;
+}
+.hero h1 {
+  max-width: 518px;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  padding-bottom: 30px;
+}
+.hero p {
+  max-width: 458px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 45px;
+}
+.hero__get-started {
+  width: 175px;
+  height: 53px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 2px solid #ff9900;
+  border-radius: 4px;
+  background-color: #ff9900;
+  color: #fff;
+  margin-right: 30px;
+}
+.hero__watch {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #ff9900;
+  text-decoration-line: underline;
+}
+.hero__watch::before {
+  content: url("../img/play.png");
+  width: 20px;
+  height: 17px;
+  vertical-align: middle;
+  margin-right: 9px;
+}
+.feature .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature {
+  margin-bottom: 210px;
+}
+.feature h2 {
+  max-width: 539px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #2f281e;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.feature__card {
+  margin-bottom: 60px;
+}
+.feature__card ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+.feature__card li {
+  max-width: 240px;
+}
+.feature__card li.first-click::before {
+  content: url("../img/icon-first-click-tests.png");
+}
+.feature__card li.design-surveys::before {
+  content: url("../img/icon-design-surveys.png");
+}
+.feature__card li.preference-tests::before {
+  content: url("../img/icon-preference-tests.png");
+}
+.feature__card li.five-second::before {
+  content: url("../img/icon-time-tests.png");
+}
+.feature__card li:not(:last-child) {
+  padding-right: 50px;
+}
+.feature__card ul h3 {
+  padding: 30px 0 13px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #2f281e;
+}
+.feature__card ul p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #544837;
+}
+.feature__button button {
+  width: 175px;
+  height: 53px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #ff9900;
+  background-color: #ff9900;
+  border-radius: 4px;
+}
+.effortless-validation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.effortless-validation {
+  margin-bottom: 101px;
+}
+.effortless-validation__fundamental {
+  max-width: 486px;
+}
+.effortless-validation__fundamental p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #544837;
+  padding-bottom: 30px;
+}
+.effortless-validation__fundamental h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f281e;
+  padding-bottom: 22px;
+}
+.effortless-validation__sked {
+  list-style: none;
+}
+.effortless-validation__sked h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2f281e;
+  padding-bottom: 12px;
+}
+.product-managers .container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-managers {
+  margin-bottom: 105px;
+}
+.product-managers__fundamental {
+  max-width: 486px;
+}
+.product-managers__fundamental p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #544837;
+  padding-bottom: 30px;
+}
+.product-managers__fundamental h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f281e;
+  padding-bottom: 22px;
+}
+.product-managers__sked {
+  list-style: none;
+}
+.product-managers__sked li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #544837;
+  padding-bottom: 30px;
+}
+.product-managers__sked li::before {
+  content: url("../img/icon-check-mark.png");
+  padding-right: 30px;
+}
+.marketers .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.marketers {
+  margin-bottom: 146px;
+}
+.marketers__fundamental {
+  max-width: 486px;
+}
+.marketers__fundamental p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #544837;
+  padding-bottom: 30px;
+}
+.marketers__fundamental h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f281e;
+  padding-bottom: 22px;
+}
+.marketers__sked {
+  list-style: none;
+}
+.marketers__sked h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2f281e;
+  padding-bottom: 12px;
+}
+.line .container {
+  width: 1109px;
+  height: 1px;
+  border-bottom: 1px solid rgba(188, 208, 229, 0.496913);
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer img {
+  margin-top: 105px;
+}
+.footer nav {
+  margin-top: 167px;
+}
+
+.footer ul {
+  list-style: none;
+}
+.footer li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.footer ul a {
+  text-decoration: none;
+  color: #544837;
+}
+.footer__entry-field {
+  margin-top: 193px;
+}
+.footer__entry-field input {
+  width: 325px;
+  height: 48px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  margin-bottom: 21px;
+}
+.footer__entry-field button {
+  width: 131px;
+  height: 39px;
+  background-color: #ff9900;
+  border: 1px solid #ff9900;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
